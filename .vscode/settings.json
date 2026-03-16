@@ -67,5 +67,8 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Edgard.slnx"
+    "dotnet.defaultSolution": "Edgard.slnx",
+    "cSpell.words": [
+        "Rigidbody"
+    ]
 }
