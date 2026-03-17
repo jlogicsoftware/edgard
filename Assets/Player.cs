@@ -48,7 +48,9 @@ public class Player : MonoBehaviour
 
     private void HandleAnimation()
     {
-        anim.SetBool("isMoving", xInput != 0);
+        anim.SetBool("isGrounded", isGrounded);
+        anim.SetFloat("xVelocity", rb.linearVelocityX);
+        anim.SetFloat("yVelocity", rb.linearVelocityY);
     }
 
     private void Jump()
